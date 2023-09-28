@@ -26,7 +26,7 @@ jobs = [{
 
 @app.route("/")
 def Data_Engineer():
-  return render_template('home.html', jobs=jobs, company_name="Data Dabbler")
+  return render_template('home.html', jobs=jobs, company_name="Herbert Chitere Portfolio")
 
 
 @app.route("/jobs")
